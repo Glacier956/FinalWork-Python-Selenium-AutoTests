@@ -1,0 +1,12 @@
+name: second_environment
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9.5
+  - pip:
+    - requests==2.31.0
+    - selenium==4.10.0
+    - chromedriver-binary
+    - pytest==7.3.2
+    - allure-pytest==2.13.2
+    - flake8==6.0.0
